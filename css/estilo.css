@@ -1,0 +1,146 @@
+/* GENERAL */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+
+body {
+    background-color:#50C5B7;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #ffcc00;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 150px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+}
+
+/* MAIN */
+
+main {
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: #ffcc00;
+}
+
+h2 {
+    margin: 15px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+/* FOOTER */
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    border-top: 1px solid black;
+}
+
+/* PRODUCTOS & JUEGO*/
+
+.nombre-juego {
+    font-size: 18px;
+    background-color: #cccc;
+    text-transform: capitalize;
+}
+
+.contenedor-juego, .contenedor-informacion {
+    margin: 20px;
+    border: 4px solid #cccc;
+    display: inline-block;
+    text-align: justify;
+
+    position: relative;
+}
+
+.contenedor-informacion {
+    position: absolute;
+}
+
+.informacion {
+    list-style: none;
+    padding: 20px;      
+}
+
+.categorias {
+    text-transform: capitalize;
+}
+
+.contenedor-video {
+    margin: 20px;
+    border: 4px solid #cccc;
+    display: block;
+    text-align: center;    
+}
+
+/* HISTORIA */
+
+iframe {
+    display: inline-block;
+    margin: auto;
+}
+
+/* CONTACTO */
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin: 5px;
+}
+
+input, textarea {
+    display: block;
+    width: 20%;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 40%;
+}
+
+.boton-form {
+    display: inline;
+    background-color: #cccc;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
