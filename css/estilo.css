@@ -8,9 +8,9 @@
 /* BODY */
 
 body {
-    background-color:#50C5B7;
+    /* background-color:#50C5B7; */
     text-align: justify;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 /* HEADER */
@@ -24,17 +24,21 @@ header {
     width: 150px;
 }
 
-nav ul li {
+.navbar {
+    background-color: #ffcc00 !important;
+}
+
+/* nav ul li {
     display: inline-block;
     list-style: none;
     margin: 0 10px;
-}
+} */
 
 a {
     text-decoration: none;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     color: black;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 /* MAIN */
@@ -48,7 +52,7 @@ h1 {
     text-align: center;
     border: 1px solid black;
     border-radius: 4px;
-    background-color: #ffcc00;
+    background-color: wheat;
 }
 
 h2 {
@@ -59,30 +63,36 @@ h3 {
     margin: 10px;
 }
 
-/* FOOTER */
+/* FOOTER y ASIDE*/
 
-footer {
+footer, aside {
     margin: 20px;
     padding: 20px;
     border-top: 1px solid black;
 }
 
+footer {
+    background-color: wheat;
+    text-align: center;
+    font-size: x-large;
+}
+
 /* PRODUCTOS & JUEGO*/
 
-.nombre-juego {
+/* .nombre-juego {
     font-size: 18px;
     background-color: #cccc;
     text-transform: capitalize;
-}
+} */
 
-.contenedor-juego, .contenedor-informacion {
+/* .contenedor-juego, .contenedor-informacion {
     margin: 20px;
     border: 4px solid #cccc;
     display: inline-block;
     text-align: justify;
 
     position: relative;
-}
+} */
 
 .contenedor-informacion {
     position: absolute;
