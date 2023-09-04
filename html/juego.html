@@ -4,72 +4,103 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tienda de Juegos</title>
-    <link rel="shortcut icon" href="../img/logo-favicon.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="../img/logo-favicon.png"
+      type="image/x-icon"
+    />
+    <!-- BS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
     <link rel="stylesheet" href="../css/estilo.css" />
   </head>
   <body>
     <!-- ATENCIÓN: Para esta pre-entrega, todos lo juegos en index y productos te traen a esta página -->
     <header>
-      <a href="">
-        <img
-          class="logo"
-          src="../img/logo-negro-amarillo.png"
-          alt="Logo Tienda de Juegos"
-        />
-      </a>
-
-      <nav>
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="productos.html">Productos</a></li>
-          <li><a href="historia.html">¿Quienes somos?</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
+      <!-- BS Navbar -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img
+              class="logo"
+              src="../img/logo-negro-amarillo.png"
+              alt="Logo tienda de juegos"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navigation-bar"
+            aria-controls="navigation-bar"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navigation-bar">
+            <div class="navbar-nav">
+              <a class="nav-link" href="../index.html">Inicio</a>
+              <a class="nav-link" href="productos.html">Productos</a>
+              <a class="nav-link" href="historia.html">¿Quienes somos?</a>
+              <a class="nav-link" href="contacto.html">Contacto</a>
+              <a class="nav-link" href="#envios">Envíos/Retiro</a>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
+    <!-- Fin Navbar -->
 
     <main>
+
       <h1>Carcassone</h1>
 
-      <h2>¿Qué es el Carcassone?</h2>
+      <section class="contenedor-carcassone">
+      
+      <figure>
+        <img src="../img/juego-carcassone.png" alt="Foto de caja de Juego" />
+      </figure>
+      
+      <article>
+        <h2>¿Qué es el Carcassone?</h2>
 
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quasi
-        nihil delectus voluptate dolorum ipsum vitae quis facilis sapiente
-        labore ea, expedita est voluptates vero eligendi sed ab? Inventore illo
-        veritatis vitae rerum corrupti accusamus aliquid, repellat similique
-        neque in natus voluptates necessitatibus eos ipsa explicabo ratione
-        provident maxime tempora, illum voluptatibus quia sint excepturi est
-        sit. Repellat beatae sapiente, cumque laborum ab quidem, et autem veniam
-        voluptates ullam corrupti, voluptatum assumenda explicabo eos esse
-        numquam iste. Corrupti, ad eum nobis cum porro qui corporis, velit vitae
-        ipsam nesciunt iste nisi natus deserunt minus veniam adipisci quaerat
-        ducimus, temporibus ipsum! Libero laudantium, accusamus ducimus
-        reiciendis temporibus cupiditate eligendi soluta voluptatem modi
-        excepturi provident iusto quas consequuntur harum sit. Beatae autem
-        magnam iste atque nam enim sit nulla saepe corrupti ut laboriosam hic
-        voluptates, nesciunt officiis totam repudiandae eos voluptatum fugiat
-        suscipit nihil? Ad aliquid aspernatur obcaecati minima sunt modi,
-        exercitationem alias ipsum voluptatibus earum velit, nobis vel,
-        cupiditate eum voluptatum magni officia vitae. Provident nihil
-        cupiditate nostrum, voluptate delectus dolores consequatur. Earum
-        deleniti quos alias itaque vero ratione, modi, libero non obcaecati
-        corporis necessitatibus et architecto optio explicabo voluptatum cum id
-        odit harum, reprehenderit provident. Sed eum nemo at accusamus?
-      </p>
+        <p class="">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quasi
+          nihil delectus voluptate dolorum ipsum vitae quis facilis sapiente
+          labore ea, expedita est voluptates vero eligendi sed ab? Inventore
+          illo veritatis vitae rerum corrupti accusamus aliquid, repellat
+          similique neque in natus voluptates necessitatibus eos ipsa explicabo
+          ratione provident maxime tempora, illum voluptatibus quia sint
+          excepturi est sit. Repellat beatae sapiente, cumque laborum ab quidem,
+          et autem veniam voluptates ullam corrupti, voluptatum assumenda
+          explicabo eos esse numquam iste. Corrupti, ad eum nobis cum porro qui
+          corporis, velit vitae ipsam nesciunt iste nisi natus deserunt minus
+          veniam adipisci quaerat ducimus, temporibus ipsum! Libero laudantium,
+          accusamus ducimus reiciendis temporibus cupiditate eligendi soluta
+          voluptatem modi excepturi provident iusto quas consequuntur harum sit.
+          Beatae autem magnam iste atque nam enim sit nulla saepe corrupti ut
+          laboriosam hic voluptates, nesciunt officiis totam repudiandae eos
+          voluptatum fugiat suscipit nihil? Ad aliquid aspernatur obcaecati
+          minima sunt modi, exercitationem alias ipsum voluptatibus earum velit,
+          nobis vel, cupiditate eum voluptatum magni officia vitae. Provident
+          nihil cupiditate nostrum, voluptate delectus dolores consequatur.
+          Earum deleniti quos alias itaque vero ratione, modi, libero non
+          obcaecati corporis necessitatibus et architecto optio explicabo
+          voluptatum cum id odit harum, reprehenderit provident. Sed eum nemo at
+          accusamus?
+        </p>
+      </article>
 
-      <div class="contenedor-juego">
-        <img
-          class="imagen-juego"
-          src="../img/juego-carcassone.png"
-          alt="Foto de caja de Juego"
-        />
-      </div>
-
-      <div class="contenedor-informacion">
+      <article>
         <h3>Información</h3>
 
-        <ul class="informacion">
+        <ul class="">
           <li>Autor: Klaus-Jürgen Wede</li>
           <li>Edad recomendada: 7+</li>
           <li>Cantidad de jugadores: 2-5</li>
@@ -80,12 +111,14 @@
               class="boardgamegeek"
               href="https://boardgamegeek.com/boardgame/822/carcassonne"
               target="_blank"
-            >Enlace a BGG</a>
+              >Enlace a BGG</a
+            >
           </div>
         </ul>
-      </div>
+      </article>
+      </section>
 
-      <div class="contenedor-video">
+      <section class="contenedor-video">
         <iframe
           width="560"
           height="315"
@@ -93,21 +126,33 @@
           title="YouTube video player"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen></iframe>
-          <p>Conoce más sobre Carcassone</p>
-        
-      </div>
+          allowfullscreen
+        ></iframe>
+      </section>
     </main>
 
-    <footer>
-      <h3>Envíos/Retiros</h3>
+    <aside>
+      <h3>Información sobre envíos a domicilio y retiros por local</h3>
       <p>
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus
         blanditiis repellat necessitatibus repellendus nihil facilis modi ipsa
         laboriosam dolor excepturi, voluptatum perferendis sapiente aut at
         fugiat consectetur qui nesciunt vel?
       </p>
+    </aside>
 
+    <footer>
+      <p>
+        "Hay tres formas de arte elevado: la sinfonía, los libros infantiles y
+        los juegos de mesa"
+      </p>
     </footer>
+
+    <!-- BS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

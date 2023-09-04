@@ -8,9 +8,8 @@
 /* BODY */
 
 body {
-    /* background-color:#50C5B7; */
     text-align: justify;
-    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
 }
 
 /* HEADER */
@@ -34,19 +33,9 @@ nav ul li {
     margin: 0 10px;
 }
 
-@media (max-width:768px) {
-    ul li {
-        margin: auto;
-        padding: 0;
-    }
-    
-}
-
 a {
     text-decoration: none;
-    /* text-transform: uppercase; */
     color: black;
-    /* font-weight: bold; */
 }
 
 /* MAIN */
@@ -87,39 +76,19 @@ footer {
 
 /* PRODUCTOS & JUEGO*/
 
-/* .nombre-juego {
-    font-size: 18px;
-    background-color: #cccc;
-    text-transform: capitalize;
-} */
+.contenedor-carcassone {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 200px;
+}
 
-/* .contenedor-juego, .contenedor-informacion {
-    margin: 20px;
-    border: 4px solid #cccc;
-    display: inline-block;
+article {
     text-align: justify;
-
-    position: relative;
-} */
-
-.contenedor-informacion {
-    position: absolute;
 }
-
-.informacion {
-    list-style: none;
-    padding: 20px;      
-}
-
-.categorias {
-    text-transform: capitalize;
-}
-
 .contenedor-video {
     margin: 20px;
-    border: 4px solid #cccc;
-    display: block;
-    text-align: center;    
+    display: flex;
+    text-align: center;
 }
 
 /* HISTORIA */
@@ -161,4 +130,15 @@ textarea {
     height: 50px;
     margin-top: 10px;
     cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+
+
+@media (max-width:768px) {
+    ul li {
+        margin: auto;
+        padding: 0;
+    }
+    
 }
