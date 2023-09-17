@@ -9,6 +9,8 @@
 :root {
     --amarillo: #ffcc00;
     --wheat: #f5deb32f;
+    --orange-dark: #f17339;
+    --purple: #3f3a60;
 }
 
 /* BODY */
@@ -101,7 +103,7 @@ footer {
     font-size: x-large;
 }
 
-/* PRODUCTOS & JUEGO*/
+/* PRODUCTOS */
 
 .productos {
     display: flex;
@@ -135,17 +137,39 @@ footer {
     overflow: hidden;
 }
 
-.contenedor-carcassone {
+/* JUEGO */
+
+.contenedor-juego {
     display: flex;
     flex-flow: row wrap;
     flex: 200px;
 }
 
-article {
+.juego__imagen {
+    width:fit-content;
+}
+
+.juego__informacion {
     text-align: justify;
 }
-.contenedor-video {
-    margin: 20px;
+
+.juego__informacion__bgg a {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+}
+.juego__informacion__bgg a:hover {
+    color: var(--orange-dark);
+    background-color: var(--purple);
+    font-weight: 700;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.juego__video {
+    margin: 100px;
     display: flex;
     text-align: center;
 }
@@ -198,5 +222,23 @@ textarea {
     ul li {
         margin: auto;
         padding: 0;
+    }
+}
+
+@media (min-width: 1300px) {
+    .contenedor-juego {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .juego__informacion {
+        width: 700px;
+    }
+
+    .juego__video {
+        /* width: fit-content; */
+        align-items: flex-start;
+        justify-content: flex-start;
     }
 }
