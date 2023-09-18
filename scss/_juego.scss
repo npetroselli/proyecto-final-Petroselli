@@ -1,0 +1,36 @@
+@mixin flex-fit {
+	display: flex;
+	text-align: center;
+}
+
+.contenedor-juego {
+	display: flex;
+	flex-flow: row wrap;
+	flex: 200px;
+}
+.juego__imagen {
+	width: fit-content;
+}
+.juego__informacion {
+	text-align: justify;
+}
+.juego__informacion__bgg {
+	a {
+		background-color: $amarillo;
+		padding: 8px;
+		border-radius: 3px;
+		&:hover {
+			color: $orange-dark;
+			background-color: $purple;
+			font-weight: 700;
+			padding: 10px;
+			border-radius: 5px;
+			transition: all 0.5s;
+		}
+	}
+}
+.contenedor-video {
+	margin: 100px;
+    display: flex;
+    text-align: center;
+}

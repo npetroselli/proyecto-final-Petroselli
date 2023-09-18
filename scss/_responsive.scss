@@ -1,0 +1,23 @@
+@media (max-width:768px) {
+    ul li {
+        margin: auto;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1300px) {
+    .contenedor-juego {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .juego__informacion {
+        width: 700px;
+    }
+
+    .juego__video {
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
