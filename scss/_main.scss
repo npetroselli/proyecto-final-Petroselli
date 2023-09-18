@@ -1,6 +1,5 @@
 main {
-	margin: 20px;
-	padding: 20px;
+	@include m-p-20;
 }
 h1 {
 	text-align: center;

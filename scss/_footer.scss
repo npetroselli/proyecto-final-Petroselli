@@ -1,6 +1,5 @@
 footer, aside {
-	margin: 20px;
-	padding: 20px;
+	@include m-p-20;
 	border-top: 1px solid black;
 }
 footer {

@@ -3,3 +3,7 @@ $wheat: #f5deb32f;
 $orange-dark: #f17339;
 $purple: #3f3a60;
 
+@mixin m-p-20 {
+    margin: 20px;
+    padding: 20px;
+} 
