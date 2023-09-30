@@ -1,6 +1,6 @@
 # proyecto-final-Petroselli
 
-# _Tienda de Juegos
+# _Tienda de Juegos_
 
 ## Descripción e historia
 
@@ -33,7 +33,7 @@ Controlador de versiones utilizados fueron Git y Github.
 Instrucciones para utilizar SASS como procesador de CSS:
 - sass --watch scss:css
 
-### Notas finales sobre el proyecto
+## Notas finales sobre el proyecto
 
 Mis mayores inconvenientes los tuve con el diseño responsive. Fui probando diferentes ideas con imágenes, videos y párrafos de texto.
 Espero que les guste y cualquier devolución será agradecida.
