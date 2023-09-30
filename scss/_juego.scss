@@ -5,6 +5,9 @@
 }
 .juego__imagen {
 	width: fit-content;
+	img {
+		width: 100%;
+	}
 }
 .juego__informacion {
 	text-align: justify;
